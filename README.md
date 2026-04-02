@@ -13,14 +13,16 @@ pip install potracer fonttools defcon ufo2ft
 ```
 
 ## Preprocessing
+Create the following directory:
 ```
-mkdir:
-
 tmp
 _resources/split_of_chars
-
+_resources/split_of_fonts
 ```
-
+Run these .py files sequentially to split the dataset:
+```
+python 0_split_seen_and_unseen_chars.py
+```
 ## Build Dataset
 
 ## Rendering and Vectorization
