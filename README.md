@@ -29,7 +29,7 @@ python 2_split_seen_and_unseen_fonts.py
 Copy the corresponding files according to the division results to build a dataset:
 ```
 ```
-<u>Attention</u>: Different operating systems handle file suffixes differently. We strongly recommend that you print the results here to determine which font files have been effectively read.
+**Attention**: Different operating systems handle file suffixes differently. We strongly recommend that you print the results here to determine which font files have been effectively read. The same reading code **also exists** in the data loader of our model.
 
 ## Rendering and Vectorization
 
