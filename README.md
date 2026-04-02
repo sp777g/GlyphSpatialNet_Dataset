@@ -13,7 +13,13 @@ pip install potracer fonttools defcon ufo2ft
 ```
 
 ## Preprocessing
+```
+mkdir:
 
+tmp
+_resources/split_of_chars
+
+```
 
 ## Build Dataset
 
