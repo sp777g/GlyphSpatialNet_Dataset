@@ -22,6 +22,8 @@ _resources/split_of_fonts
 Run these .py files sequentially to split the dataset:
 ```
 python 0_split_seen_and_unseen_chars.py
+python 1_prepare_ref_chars.py
+python 2_split_seen_and_unseen_fonts.py
 ```
 ## Build Dataset
 
