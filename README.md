@@ -12,5 +12,12 @@ pip --default-timeout=99999 install torch==2.3.0 torchvision==0.18.0 torchaudio=
 pip install potracer fonttools defcon ufo2ft
 ```
 
+## Preprocessing
+
+
+## Build Dataset
+
+## Rendering and Vectorization
+
 ## Acknowledgments
 Thank you to all the creators of OFL fonts for making it possible to share these excellent fonts.
