@@ -1,7 +1,7 @@
 # GlyphSpatialNet_Dataset
+This repository contains a collection of font files released under the SIL Open Font License.
 
-
-## 
+## Declaration
 
 ## Conda Environment
 ```
