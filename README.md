@@ -2,6 +2,7 @@
 This repository contains a collection of font files released under the SIL Open Font License.
 
 ## Declaration
+The copyright of all fonts belongs to their original authors or copyright holders. This repository only serves as a collection and distribution of these OFL fonts and does not modify any font content. The distribution of this repository itself also follows the SIL Open Font License.
 
 ## Conda Environment
 ```
