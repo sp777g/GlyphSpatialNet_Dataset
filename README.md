@@ -26,6 +26,12 @@ python 1_prepare_ref_chars.py
 python 2_split_seen_and_unseen_fonts.py
 ```
 ## Build Dataset
+Create the following directory:
+```
+_results/dataset_train
+_results/dataset_test_UFSC
+_results/dataset_test_UFUC
+```
 Copy the corresponding files according to the division results to build a dataset:
 ```
 ```
