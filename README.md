@@ -46,7 +46,9 @@ Manually copy the following files:
     dataset_test_UFSC
 ```
 **Attention**: Different operating systems handle file suffixes differently. We strongly recommend that you print the results here to determine which font files have been effectively read. The same reading code **also exists** in the data loader of our model.
+
 You can collect other font files on your own and obtain your own dataset through the above process.
+
 If you use the data collected by this repository, the resulting dataset should be consistent with [here]().
 
 ## Rendering and Vectorization
