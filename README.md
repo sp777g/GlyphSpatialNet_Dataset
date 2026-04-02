@@ -2,7 +2,7 @@
 This repository contains: (1) a collection of font files released under the SIL Open Font License; (2) how to build datasets for deep learning; (3) rendering and vectorization.
 
 ## Declaration
-The copyright of all fonts belongs to their original authors or copyright holders. This repository only serves as a collection and distribution of these OFL fonts and does not modify any font content. The distribution of this repository itself also follows the SIL Open Font License. The fonts and licenses can be downloaded [here](https://www.google.com).
+The copyright of all fonts belongs to their original authors or copyright holders. This repository only serves as a collection and distribution of these OFL fonts and does not modify any font content. The distribution of this repository itself also follows the SIL Open Font License. The fonts and licenses can be downloaded [here](https://drive.google.com/file/d/1paUDHTp7PtPpfLcHZAb6tzcheSAPsZqn/view?usp=sharing).
 
 ## Conda Environment
 ```
