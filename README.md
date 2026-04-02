@@ -28,9 +28,9 @@ python 2_split_seen_and_unseen_fonts.py
 ## Build Dataset
 Create the following directory:
 ```
-_results/dataset_train
-_results/dataset_test_UFSC
-_results/dataset_test_UFUC
+_results/dataset_train/seen_fonts_for_train
+_results/dataset_test_UFSC/unseen_fonts_for_test
+_results/dataset_test_UFUC/unseen_fonts_for_test
 ```
 Copy the corresponding files according to the division results to build a dataset:
 ```
