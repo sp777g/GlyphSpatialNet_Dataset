@@ -25,6 +25,7 @@ python 0_split_seen_and_unseen_chars.py
 python 1_prepare_ref_chars.py
 python 2_split_seen_and_unseen_fonts.py
 ```
+
 ## Build Dataset
 Create the following directory:
 ```
@@ -34,8 +35,19 @@ _results/dataset_test_UFUC/unseen_fonts_for_test
 ```
 Copy the corresponding files according to the division results to build a dataset:
 ```
+python copy_files.py
+```
+Manually copy the following files:
+```
+(1) Copy source font
+0000\\SourceHanSerifSC-Regular.otf ->
+    dataset_train
+    dataset_test_UFUC
+    dataset_test_UFSC
 ```
 **Attention**: Different operating systems handle file suffixes differently. We strongly recommend that you print the results here to determine which font files have been effectively read. The same reading code **also exists** in the data loader of our model.
+You can collect other font files on your own and obtain your own dataset through the above process.
+If you use the data collected by this repository, the resulting dataset should be consistent with [here]().
 
 ## Rendering and Vectorization
 
