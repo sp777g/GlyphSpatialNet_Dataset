@@ -39,11 +39,24 @@ python copy_files.py
 ```
 Manually copy the following files:
 ```
-(1) Copy source font
-0000\\SourceHanSerifSC-Regular.otf ->
-    dataset_train
-    dataset_test_UFUC
-    dataset_test_UFSC
+(1) Copy source font:
+0000\SourceHanSerifSC-Regular.otf ->
+    dataset_train\
+    dataset_test_UFUC\
+    dataset_test_UFSC\
+
+(2) Copy ref_chars:
+ref_chars_for_test_8.json ->
+    dataset_test_UFSC\
+    dataset_test_UFUC\
+
+(3) Copy split of characters:
+seen_chars_for_train.json ->
+    dataset_train\
+seen_chars_for_test.json ->
+    dataset_test_UFSC\
+unseen_chars_for_test.json ->
+    dataset_test_UFUC\
 ```
 **Attention**: Different operating systems handle file suffixes differently. We strongly recommend that you print the results here to determine which font files have been effectively read. The same reading code **also exists** in the data loader of our model.
 
