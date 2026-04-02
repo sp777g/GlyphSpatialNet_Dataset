@@ -12,4 +12,4 @@ pip install potracer fonttools defcon ufo2ft
 ```
 
 ## Acknowledgments
-Thank you to all the creators of OFL fonts for making it possible to freely share and improve these excellent fonts.
+Thank you to all the creators of OFL fonts for making it possible to share these excellent fonts.
