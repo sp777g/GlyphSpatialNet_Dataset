@@ -60,7 +60,7 @@ seen_chars_for_test.json ->
 unseen_chars_for_test.json ->
     dataset_test_UFUC\
 ```
-**Attention**: Different operating systems handle file suffixes differently. We strongly recommend that you print the results [here](https://github.com/sp777g/GlyphSpatialNet_Dataset/blob/main/src/utils.py#L38) to determine which font files have been effectively read. The same reading code **also exists** in the data loader of our model.
+**Attention**: Different operating systems handle file suffixes differently. We strongly recommend that you print the results [here](https://github.com/sp777g/GlyphSpatialNet_Dataset/blob/main/src/utils.py#L43) to determine which font files have been effectively read. The same reading code **also exists** in the data loader of our model.
 
 You can collect other font files on your own and obtain your own dataset through the above process.
 
