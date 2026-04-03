@@ -65,6 +65,14 @@ You can collect other font files on your own and obtain your own dataset through
 If you use the data collected by this repository, the resulting dataset should be consistent with [here]().
 
 ## Rendering and Vectorization
+This code shows the rendering method we use:
+```
+python test_0_display_dataset.py
+```
+This code shows the process of render-vectorize-rerender:
+```
+python test_1_img_to_vec_to_img.py
+```
 
 ## Acknowledgments
 Thank you to all the creators of OFL fonts for making it possible to share these excellent fonts.
