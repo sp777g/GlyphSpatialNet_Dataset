@@ -64,7 +64,10 @@ unseen_chars_for_test.json ->
 
 You can collect other font files on your own and obtain your own dataset through the above process.
 
-If you use the data collected by this repository, the resulting dataset should be consistent with [here]().
+If you use the data collected by this repository, the resulting dataset should be consistent with:
+ - [[dataset_train.zip]]()
+ - [[dataset_test_UFSC.zip]]()
+ - [[dataset_test_UFUC.zip]]()
 
 ## Rendering and Vectorization
 This code shows the rendering method we use:
